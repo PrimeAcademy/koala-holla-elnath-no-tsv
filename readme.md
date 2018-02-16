@@ -1,3 +1,10 @@
+Who Contributed To This Repo?
+-----------------------------
+- Jacob
+- Dan
+- Carter
+- Renee
+
 This must stop:
 ---------------
 ![Nevar again](https://i.makeagif.com/media/8-22-2014/GO_DT4.gif)
@@ -55,3 +62,31 @@ Sample Output
 Your final product may look something like this:
 
 ![sample](sample.png)
+
+# Project Planning and Management
+
+## Base Mode
+- [x] Database Table which houses information
+    - [x] id
+    - [x] name
+    - [x] gender
+    - [x] age
+    - [x] ready_to_transfer
+    - [x] notes
+- [x] Web app that displays the database taeateble on the DOM
+    - [x] User can add new Koala to database
+
+## Hard Mode
+- [x] On the DOM, user can mark a Koala for transfer
+    - [x] Button for each row that reads `Ready For Transfer`
+    - [x] When clicking the button, it will update the database on the specific Koala showing it is `Ready For Transfer`
+    - [x] `Ready For Transfer` only appears for Koalas that haven't been marked `Ready For Transfer`
+- [x] User can delete koala from the database
+- [x] Add styling with bootstrap
+
+## Pro Mode
+- [ ] User can edit existing Koalas
+- [ ] Create a toggle display for Koala's `Ready for Transfer`
+- [ ] Add Form Validation
+- [ ] Additional Styling
+- [x] Create a README.md file
